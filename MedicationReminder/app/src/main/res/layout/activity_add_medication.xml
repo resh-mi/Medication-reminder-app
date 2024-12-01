@@ -1,0 +1,44 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/medicationName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Medication Name"
+        android:layout_marginBottom="8dp" />
+
+    <EditText
+        android:id="@+id/medicationDosage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Dosage"
+        android:layout_marginBottom="8dp" />
+
+    <Button
+        android:id="@+id/pickTimeButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pick Time"
+        android:layout_gravity="start"
+        android:layout_marginBottom="8dp" />
+
+    <TextView
+        android:id="@+id/selectedTimeTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Selected Time: Not Set"
+        android:layout_marginBottom="16dp"
+        android:textColor="@android:color/black"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/saveMedicationButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Save Medication"
+        android:layout_gravity="center" />
+</LinearLayout>

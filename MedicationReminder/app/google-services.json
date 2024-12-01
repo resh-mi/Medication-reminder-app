@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "889700267598",
+    "firebase_url": "https://medicationremainder-daec2-default-rtdb.firebaseio.com",
+    "project_id": "medicationremainder-daec2",
+    "storage_bucket": "medicationremainder-daec2.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:889700267598:android:06421d0b7221f5fed7751f",
+        "android_client_info": {
+          "package_name": "com.example.medicationreminder"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCHVGVQ37FPMvNuZO5k2e7X1Ee9SX7BXK8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
